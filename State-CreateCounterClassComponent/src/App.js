@@ -5,7 +5,7 @@ import Counter from './Counter';
 function App() {
   return (
     <div className="App">
-      <Counter />
+       <Counter initialValue = {0} incrementInterval = {1000} incrementAmount = {1} />
     </div>
   );
 }

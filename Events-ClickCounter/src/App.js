@@ -1,11 +1,11 @@
 import './App.css';
-import Counter from './Counter';
+import ClickCounter from './ClickCounter';
 
 
 function App() {
   return (
     <div className="App">
-      <Counter initialValue = {0} incrementAmount = {1} />
+      <ClickCounter initialValue = {0} incrementAmount = {1} />
     </div>
   );
 }

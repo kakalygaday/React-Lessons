@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Counter extends React.Component {
+export default class ClickCounter extends React.Component {
     state = {
         count: this.props.initialValue
     }
